@@ -1,0 +1,21 @@
+.productlist{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1200px;
+    background-color: tomato;
+    margin:auto;
+    margin-top: calc(15px * 2);
+    
+}
+.prodcutcard{
+    flex: auto;
+    margin:  15px;
+    background-color: teal;
+    vertical-align: top;
+    width: 180px ;
+    border: 2px solid yellow;
+    display: inline-block;
+    height: 180px ;
+}

@@ -22,4 +22,8 @@ describe('WineComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  let  before:any = 30;
+alert(before);
+
 });
